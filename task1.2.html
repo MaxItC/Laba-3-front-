@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пример блочной верстки</title>
+    <style>
+        body {
+            background: #f3f2f3;
+            color: #000000;
+            font-size: 12px;
+        }
+
+        #container {
+            background: black;
+            margin: 30px auto;
+            width: 700px;
+            height: 500px;
+            border: 3px solid black;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .top-section {
+            display: flex;
+            height: 80%;
+        }
+
+        .bottom-section {
+            display: flex;
+            height: 20%;
+        }
+
+        #header {
+            background: #8ae077;
+            opacity: 0.8;
+            height: 100%;
+            width: 30%;
+            display: flex;
+            justify-content: center;
+            align-items: center; 
+        }
+
+        .right-section {
+            display: flex;
+            flex-direction: column;
+            width: 70%;
+            height: 100%;
+        }
+
+        #head {
+            background: #1870fc;
+            height: 30%;
+            display: flex;
+            align-items: center; 
+            padding-left: 100px;
+            box-sizing: border-box;
+        }
+
+        #yelblock{
+            background: #fff204;
+            opacity: 0.9;
+            height: 70%;
+            display: flex;
+            align-items: center; 
+            justify-content: center;
+            padding-left: 50px;
+            box-sizing: border-box;
+        }
+
+        #bodyblock{
+            background: #cfbc8c;
+            width: 60%;
+            display: flex;
+            align-items: center; 
+            justify-content: center;
+            padding-left: 100px;
+            box-sizing: border-box;
+        }
+
+        #purpleblock{
+            background: #da12bf;
+            width: 40%;
+            display: flex;
+            align-items: center; 
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="top-section">
+            <div id="header">
+                <h2>IMG</h2>
+            </div>
+            <div class="right-section">
+                <div id="head">
+                    <h2>TEXT</h2>
+                </div>
+                <div id="yelblock">
+                    <h2>TEXT</h2>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-section">
+            <div id="bodyblock">
+                <h2>TEXT</h2>
+            </div>
+            <div id="purpleblock">
+                <h2>IMG</h2>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
